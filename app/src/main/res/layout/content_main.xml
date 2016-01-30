@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="64dp"
+    android:background="#C5CAC9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.madhu.myportfolioapp.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="My Nanodegree Apps!"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <Button
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#FF9800"
+            android:text="SPOTIFY STREAMER"
+            android:onClick="launchStreamerApp"/>
+
+        <Button
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#FF9800"
+            android:text="SCORES APP"
+            android:onClick="launchScoresApp"/>
+
+        <Button
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#FF9800"
+            android:text="LIBRARY APP"
+            android:onClick="launchLibraryApp"/>
+
+        <Button
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#FF9800"
+            android:text="BUILD IT BIGGER"
+            android:onClick="launchWearApp"/>
+
+        <Button
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#FF9800"
+            android:text="XYZ READER"
+            android:onClick="launchReaderApp"/>
+
+        <Button
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="CAPSTONE: MY OWN APP"
+            android:textColor="@android:color/white"
+            android:onClick="launchCapstoneApp"/>
+    </LinearLayout>
+</ScrollView>
